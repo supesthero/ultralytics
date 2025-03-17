@@ -1,5 +1,92 @@
 {
     "ultralytics/bat.py": {
         "description": "md文件生成"
+    },
+    "README.md": {
+        "description": "项目概述"
+    },
+    "mkdocs.yml": {
+        "description": "文档配置"
+    },
+    "docker": {
+        "description": "Docker配置"
+    },
+    "ultralytics/__init__.py": {
+        "description": "初始化文件"
+    },
+    "ultralytics/cfg": {
+        "description": "配置"
+    },
+    "ultralytics/data": {
+        "description": "数据集处理"
+    },
+    "ultralytics/utils": {
+        "description": "工具函数目录"
+    },
+    "ultralytics/cfg/datasets": {
+        "description": "各种训练数据集的配置"
+    },
+    "ultralytics/cfg/datasets/african-wildlife.yaml": {
+        "description": "非洲野生动物"
+    },
+    "ultralytics/cfg/datasets/Argoverse.yaml": {
+        "description": "Argo AI自驾数据集"
+    },
+    "ultralytics/cfg/datasets/brain-tumor.yaml": {
+        "description": "脑部肿瘤"
+    },
+    "ultralytics/cfg/datasets/carparts-seg.yaml": {
+        "description": "车辆配件-分割数据集"
+    },
+    "ultralytics/cfg/models": {
+        "description": "YOLO模型的配置文件"
+    },
+    "ultralytics/cfg/__init__.py": {
+        "description": "Ultralytics库的CLI命令"
+    },
+    "ultralytics/cfg/solutions": {
+        "description": "解决方案的各种设置"
+    },
+    "ultralytics/data/__init__.py": {
+        "description": "数据集初始化与加载"
+    },
+    "ultralytics/data/annotator.py": {
+        "description": "自动图像标注"
+    },
+    "ultralytics/data/augment.py": {
+        "description": " 数据增强"
+    },
+    "ultralytics/data/base.py": {
+        "description": "数据加载和预处理模块"
+    },
+    "ultralytics/data/build.py": {
+        "description": "数据加载和数据集构建模块"
+    },
+    "ultralytics/data/dataset.py": {
+        "description": "数据集基类"
+    },
+    "ultralytics/data/converter.py": {
+        "description": "数据集转换工具"
+    },
+    "ultralytics/data/loaders.py": {
+        "description": "数据加载器"
+    },
+    "ultralytics/data/split_dota.py": {
+        "description": "分割处理航空数据集"
+    },
+    "ultralytics/data/utils.py": {
+        "description": "处理和验证工具"
+    },
+    "ultralytics/engine": {
+        "description": "模型引擎"
+    },
+    "ultralytics/engine/exporter.py": {
+        "description": "模型导出"
+    },
+    "ultralytics/engine/model.py": {
+        "description": "模型"
+    },
+    "ultralytics/engine/predictor.py": {
+        "description": "预测器"
     }
 }

@@ -79,7 +79,7 @@ dependencies = [
     "ultralytics-thop>=2.0.0", # FLOPs computation https://github.com/ultralytics/thop
 ]
 
-# Optional dependencies ------------------------------------------------------------------------------------------------
+# Optional dependencies -------------------------------------------------------------------------------------------------
 [project.optional-dependencies]
 dev = [
     "ipython",
