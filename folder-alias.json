@@ -12,7 +12,7 @@
         "description": "Docker配置"
     },
     "ultralytics/__init__.py": {
-        "description": "初始化文件"
+        "description": "入口文件"
     },
     "ultralytics/cfg": {
         "description": "配置"
@@ -88,5 +88,92 @@
     },
     "ultralytics/engine/predictor.py": {
         "description": "预测器"
+    },
+    "ultralytics/nn/modules/activation.py": {
+        "description": "激活函数"
+    },
+    "ultralytics/nn/modules/block.py": {
+        "description": "神经网络模块"
+    },
+    "ultralytics/nn/modules/conv.py": {
+        "description": "卷积模块"
+    },
+    "ultralytics/nn/modules/transformer.py": {
+        "description": "注意力模块"
+    },
+    "ultralytics/nn/modules/head.py": {
+        "description": "网络头部"
+    },
+    "ultralytics/nn/autobackend.py": {
+        "description": "动态运行时加载"
+    },
+    "ultralytics/nn/__init__.py": {
+        "description": "模型加载"
+    },
+    "ultralytics/nn/modules/utils.py": {
+        "description": "模型训练工具"
+    },
+    "ultralytics/nn/modules": {
+        "description": "神经网路模块"
+    },
+    "ultralytics/engine/trainer.py": {
+        "description": "训练器"
+    },
+    "ultralytics/nn/tasks.py": {
+        "description": "yolo任务流"
+    },
+    "ultralytics/hub": {
+        "description": "大概是yolo的云服务"
+    },
+    "ultralytics/utils/autobatch.py": {
+        "description": "自动分批"
+    },
+    "ultralytics/utils/benchmarks.py": {
+        "description": "性能基准测试"
+    },
+    "ultralytics/utils/checks.py": {
+        "description": "检查和验证环境"
+    },
+    "ultralytics/utils/dist.py": {
+        "description": "DDP分布式并行训练"
+    },
+    "ultralytics/utils/downloads.py": {
+        "description": "处理文件的下载"
+    },
+    "ultralytics/utils/errors.py": {
+        "description": "云模型处理错误"
+    },
+    "ultralytics/utils/files.py": {
+        "description": "处理文件和目录操作"
+    },
+    "ultralytics/utils/instance.py": {
+        "description": "内容实例分割"
+    },
+    "ultralytics/utils/loss.py": {
+        "description": "损失函数"
+    },
+    "ultralytics/utils/metrics.py": {
+        "description": "量化指标"
+    },
+    "ultralytics/utils/ops.py": {
+        "description": "后处理操作"
+    },
+    "ultralytics/utils/patches.py": {
+        "description": "文件读写/模型加载补丁"
+    },
+    "ultralytics/utils/plotting.py": {
+        "description": "绘图&可视化"
+    },
+    "ultralytics/utils/tal.py": {
+        "description": "任务对齐分配器"
+    },
+    "ultralytics/utils/torch_utils.py": {
+        "description": "pytorch的工具"
+    },
+    "ultralytics/utils/triton.py": {
+        "description": "英伟达Triton客户端"
+    },
+    "ultralytics/utils/tuner.py": {
+        "description": "Ray框架超参优化"
     }
 }
